@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="multicycle">
+		<CBX_INST_ENTRY INSTANCE_NAME="|multicycle|memory:DataMem|DataMemory:inst|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_8mc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multicycle|mux4to1_4bits:R1Sel_mux|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_pmc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|multicycle|mux6to1_8bit:ALU2_mux|lpm_mux:LPM_MUX_component" CBX_FILE_NAME="mux_2nc.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
